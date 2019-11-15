@@ -35,12 +35,6 @@
     }
 </script>
 
-<style>
-    .padded {
-        margin: .5rem 0 1rem 0;
-    }
-</style>
-
 {#if isVisible}
     <div class="row">
         <div class="col s12">
