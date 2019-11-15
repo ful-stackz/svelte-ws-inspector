@@ -15,7 +15,7 @@
         // Await content to be rendered because of the {#if isVisible}
         // otherwise the @editorElement will not be bound to the target HTML element
         await tick();
-        editor = createEditor();
+        editor = editor || createEditor();
         editor.setValue(JSON.stringify(message, null, 4));
     });
 
